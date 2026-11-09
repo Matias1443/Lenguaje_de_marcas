@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejercicios>
+  <ejercicio id="html-01" lenguaje="HTML">
+    <titulo>Página semántica</titulo>
+    <objetivo>Organizar contenido con header, nav, main, section y footer.</objetivo>
+    <archivo>index.html</archivo>
+  </ejercicio>
+  <ejercicio id="css-01" lenguaje="CSS">
+    <titulo>Diseño adaptable</titulo>
+    <objetivo>Aplicar una cuadrícula que se adapte al ancho de pantalla.</objetivo>
+    <archivo>css/estilos.css</archivo>
+  </ejercicio>
+  <ejercicio id="xml-01" lenguaje="XML">
+    <titulo>Catálogo de ejercicios</titulo>
+    <objetivo>Representar datos con elementos, atributos y una raíz única.</objetivo>
+    <archivo>datos/ejercicios.xml</archivo>
+  </ejercicio>
+</ejercicios>
