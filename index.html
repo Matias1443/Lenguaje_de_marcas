@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cuaderno de práctica de HTML, CSS y XML de Matías.">
+  <title>Cuaderno de lenguaje de marcas · Matías</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <header>
+    <p class="etiqueta">CUADERNO DE PRÁCTICAS</p>
+    <h1>Lenguaje de marcas</h1>
+    <p>Una introducción a la estructura, la presentación y el intercambio de datos en la web.</p>
+    <nav aria-label="Navegación principal">
+      <a href="#conceptos">Conceptos</a>
+      <a href="#ejercicios">Ejercicios</a>
+      <a href="#recursos">Recursos</a>
+    </nav>
+  </header>
+  <main id="contenido">
+    <section id="conceptos" aria-labelledby="titulo-conceptos">
+      <h2 id="titulo-conceptos">Tres piezas que se complementan</h2>
+      <div class="tarjetas">
+        <article><span class="numero">01</span><h3>HTML</h3><p>Organiza el contenido con encabezados, párrafos, listas y enlaces semánticos.</p></article>
+        <article><span class="numero">02</span><h3>CSS</h3><p>Define colores, tipografía y distribución para adaptar una página a distintas pantallas.</p></article>
+        <article><span class="numero">03</span><h3>XML</h3><p>Representa información mediante etiquetas y atributos con una estructura jerárquica.</p></article>
+      </div>
+    </section>
+    <section id="ejercicios" aria-labelledby="titulo-ejercicios">
+      <h2 id="titulo-ejercicios">Ejercicios del repositorio</h2>
+      <ol>
+        <li>Construir esta página con HTML semántico.</li>
+        <li>Aplicar una hoja CSS externa y un diseño adaptable.</li>
+        <li>Representar los ejercicios en <a href="datos/ejercicios.xml">un documento XML</a>.</li>
+      </ol>
+      <p>El XML es un ejemplo de datos independiente; esta página no lo carga automáticamente.</p>
+    </section>
+    <section id="recursos" aria-labelledby="titulo-recursos">
+      <h2 id="titulo-recursos">Para seguir aprendiendo</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">Documentación de HTML en MDN</a></li>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">Documentación de CSS en MDN</a></li>
+        <li><a href="https://github.com/Matias1443/Java">Ejercicios de Java</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer><p>Matías · Práctica de HTML, CSS y XML · <a href="https://github.com/Matias1443">GitHub</a></p></footer>
+</body>
+</html>
